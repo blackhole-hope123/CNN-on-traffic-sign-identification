@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a Spring 2025 BDAA project. This project used supervised learning to solve the captioned image recognition problem. A Convolutional neural network (CNN) is trained and evaluated on the dataset. Moreover, the project explores related phenomena such as overfitting and underfitting, as well as the impact of techniques such as Batch Normalization. A visualization of the CNN is also given. 
+This project is a Spring 2025 BDAA project. This project used supervised learning to solve the captioned image recognition problem. A Convolutional neural network (CNN) is trained and evaluated on the dataset. Moreover, the project explores related phenomena such as overfitting and underfitting, as well as the impact of techniques such as Batch Normalization. A visualization of the CNN is given and a web app where the model classifies images at the back end is deployed. 
 
 
 ## Project Structure Overview
@@ -11,13 +11,14 @@ This project is a Spring 2025 BDAA project. This project used supervised learnin
 BDAA-final-project/
 ├── data/                                       # Data storage
 ├── results/                                    # results of explorations
-├── main.py                                     # the main program for traffic sign identification
+├── main.ipynb                                  # the main program for traffic sign identification, with accuracy recorded
 ├── observe_overfitting.py                      # to observe overfitting when regularization is weak
 ├── observe_underfitting.py                     # to observe underfitting when regularization is strong
 ├── data_preprocessing_batchnorm.py             # to study the impact of data preprocessing and batch normalization on test accuracy
 ├── kernel_visualization.py                     # to visualize the first layer filters
 ├── utils.py                                    # functions that will be frequently used, including those for loading data, preprocessing data,and providing the Convolutional Neural Network Model
 ├── requirements.txt                            # required packages
+├── web_app.py                                  # an interactive streamlit app with the model in the backend
 └── README.md                                   # This file
 ```
 
