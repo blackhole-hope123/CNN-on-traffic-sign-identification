@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a Spring 2025 BDAA project. This project used supervised learning to solve the captioned image recognition problem. A Convolutional neural network (CNN) is trained and evaluated on the dataset. Moreover, the project explores related phenomena such as overfitting and underfitting, as well as the impact of techniques such as Batch Normalization. A visualization of the CNN is given and a web app where the model classifies images at the back end is deployed. 
+This project is a Spring 2025 BDAA project. This project used supervised learning to solve the captioned image recognition problem. A Convolutional neural network (CNN) is trained and evaluated on the dataset. Moreover, the project explores related phenomena such as overfitting and underfitting, as well as the impact of techniques such as Batch Normalization. A visualization of the CNN is given and a web app where the model classifies images at the back end is deployed, where the app is available at https://cnn-on-traffic-sign-identification-3nwcnenffwbu8nbcvqvbqb.streamlit.app/. 
 
 
 ## Project Structure Overview
