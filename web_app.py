@@ -8,6 +8,7 @@ import os
 IMG_WIDTH=30
 IMG_HEIGHT=30
   
+
 model = tf.keras.models.load_model('model.keras')
 
 
