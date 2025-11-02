@@ -6,4 +6,5 @@ tensorflow
 pandas
 matplotlib
 streamlit
-keras-tune
+keras-tuner
+seaborn
