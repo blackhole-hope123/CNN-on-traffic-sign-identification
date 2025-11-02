@@ -16,8 +16,9 @@ def preprocess_image(img):
     img = np.array(img)
     img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
     img = cv2.resize(img, (IMG_WIDTH, IMG_HEIGHT))
-    data = np.load("traffic_data.npz")
-    x_train_mean, x_train_std = data["x_train_mean"], data["x_train_std"]
+    train = np.load("train.npz")
+    x_train = train["X"]
+    x_train_mean, x_train_std = np.mean(x_train, axis=0), np.std(x_train, axis=0)
     img = np.array(img)-x_train_mean
     img = (img - x_train_mean) / x_train_std
     return img
